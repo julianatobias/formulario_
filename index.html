@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <!--Caixinha de seleção-->
+    <!--Caixinha de seleção Utilizando "Option"-->
     <div>
         <label for="categoria">Categorias:</label>
         <select name="categoria" id="categoria">
@@ -17,6 +17,7 @@
 
 
         </select>
+        <!--Div seleção de cores em "Checkbox"-->
     </div>
     <div>
         <label for="cores">Selecione as cores de sua preferência: </label>
@@ -32,6 +33,7 @@
 
 
     </div>
+    <!--Div sexo do Funcionário utilizando "Radio"-->
     <div>
         <label>Sexo:</label>
         <br>
@@ -39,3 +41,27 @@
         <label for="sexo_m">Masculino</label>
         <input type="radio" name="sexo" id="sexo_f" value="f">
         <label for="sexo_f">Feminino</label>
+    </div>
+    <!--Div Comentários utilizando "Textarea","Cols"e"Rows"-->
+    <div>
+        <label for="comentarios">Comentários: </label>
+        <br>
+        <textarea name="comentarios" 
+        id="comentarios" 
+        cols="50" 
+        rows="4" 
+        style="resize: none;">
+    </textarea>
+    </div>
+    <!--div Botão-->
+    <div>
+        <input type="submit" value="Enviar" />
+    </div>
+
+    <!--Botão -->
+    <div>
+        <button type="submit" name="btn_comprar" value="comprar" >Comprar</button>
+    </div>
+</body>
+
+</html>
